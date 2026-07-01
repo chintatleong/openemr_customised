@@ -1,0 +1,12 @@
+# OpenEMR patient data
+data/
+
+# Backups
+backups/
+
+# Logs
+backup.log
+backup-history.csv
+
+# macOS (hidden file that macOS creates automatically in folders)
+.DS_Store

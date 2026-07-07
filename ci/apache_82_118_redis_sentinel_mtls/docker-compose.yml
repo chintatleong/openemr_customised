@@ -239,7 +239,7 @@ services:
 
   # ---------- OpenEMR: TLS + X.509 client certs ----------
   openemr:
-    image: openemr/openemr:flex-3.22-php-8.2@sha256:3535ed4f887c3de32910078aedeeac7c86d5539572c6a1cbd9c13d18cfc5fa85
+    image: openemr/openemr:flex-3.22-php-8.2@sha256:acb17bfb8549259a6042b792e007c99d727bd7479532eda133bb0789cbeee8f4
     environment:
       REDIS_TLS: "yes"
       REDIS_X509: "yes"
